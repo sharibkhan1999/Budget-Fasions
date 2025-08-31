@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: custom styles */
+body {
+  @apply bg-white text-brand-black;
+}
+
+.btn-primary {
+  @apply bg-brand-yellow text-brand-black font-bold px-4 py-2 rounded-xl shadow-md hover:bg-yellow-400 transition;
+}
